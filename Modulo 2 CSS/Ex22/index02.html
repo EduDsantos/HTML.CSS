@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de agrupamento</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: white;
+        }
+        header{
+            background-color:pink;
+            padding: 10px;
+            margin: 10px;
+            border-radius:10px;
+
+        }
+        h1{
+            border: 10px solid black;
+            border-image-source: url('borda.png');
+            padding: 8px;
+            border-image-slice: 25;
+            border-image-repeat: repeat;
+        }
+        main{
+            background-color: pink;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px  
+         }
+
+        .loja{
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+            background-color: rgba(38, 94, 121, 0.285)
+            
+        }
+        footer{
+            background-color: black;
+            color: pink;
+            padding: 4px;
+            margin: 10px;
+            text-align: center;
+        }
+        article>aside{
+            border-radius:10px;
+            background-color: rgba(0, 255, 255, 0.369);
+            text-align: center;
+            color: black
+        }
+        nav{
+            background-color: rgba(0, 255, 255, 0.103);
+            color: black;
+            padding: 5px;
+            box-shadow: 1px 1px 1px black;
+            
+        }
+        nav>a{
+            text-decoration: none;
+            font-weight:bold;
+            color: rgba(0, 168, 168, 0.444);
+            padding:30px
+            
+        }
+        nav>a:hover{
+            text-decoration: underline;
+            transition-property: initial;
+            box-shadow:0 0 5px;
+        }
+        article{
+            border-radius: 10px;
+            padding: 10px;
+            background-color:rgba(0, 255, 255, 0.244)
+        }
+        section{
+            border-radius: 10px;
+            padding: 10px;
+            background-color: rgba(238, 130, 238, 0.373);
+        }
+        div#bola{
+            text-align:center;
+            padding: 10px;
+            margin: auto;
+            width:100px;
+            height:100px;
+            background-color:blue;
+            border-radius: 50%;
+
+            
+        }
+        section#assuntos{
+            background-color: white;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+
+
+    <main>
+      <section id="assuntos">
+        <p>noticias esportes a a a </p>
+      </section>
+
+      <section id="noticias">
+        <article>
+            <h2>Coisas</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit expedita repudiandae beatae, ea sint similique. Eaque aspernatur neque quibusdam, nulla odit nesciunt unde. Delectus dolores pariatur omnis sit laudantium.</p>
+            <aside>
+                <p>artigo escrito por abublue</p>
+            </aside>
+        </article>
+        
+        <article class="loja">
+            <h2>loja</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis ipsam reprehenderit magni explicabo, sed quisquam repellat ipsum iure saepe velit deserunt dolores quasi, quod vero fugit quos error necessitatibus?</p>
+        </article>
+
+      </section>
+      </section>
+    </main>
+    <div id="bola"> :)</div>
+
+
+    <footer>
+        Oferecimento ablublue
+    </footer>
+    
+</body>
+</html>
