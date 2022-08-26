@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posição dos fundos</title>
+    <style>
+        p{ 
+            font-size:1.2em;
+            color:white;
+            margin:auto;
+            text-align:center;
+            
+        }
+        body{
+            background-color: grey;
+        }
+        div.bloco{
+            border: 4px solid black;
+            height:100px;
+            margin:10px;
+            border-radius: 20px;
+            background-image:url('imagens/wallpaper003.jpg')
+        }
+        div#q1{
+            background-position: left top;
+        }
+        div#q2{
+            background-position: left center;
+        }
+        div#q3{
+            background-position: right bottom;
+        }
+        div#q4{
+            background-position: center center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bloco" id="q1">
+        <p>Left top</p>
+
+    </div>
+
+    <div class="bloco" id="q2">
+        <p>left center</p>
+
+    </div>
+
+    <div class="bloco" id="q3">
+        <p>right bottom</p>
+
+    </div>
+    <div class="bloco" id="q4">
+        <p>center center</p>
+
+    </div>
+    
+</body>
+</html>
