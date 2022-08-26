@@ -43,14 +43,26 @@ section{
     color:black;
 }
 
-.imagem{
+.imagem#imagem01{
     color:white;
-    background-image:url('imagens/background001.jpg');
-    
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.imagem#imagem02{
+    color:rgb(0, 0, 0);
+    background-image: url('../imagens/background002.jpg');
+    background-position: center center;
+    background-attachment: fixed;
 }
 .imagem > p{
-    background-color:grey;
-    width:400px;
+    background-color:rgba(128, 128, 128, 0.552);
+    width:200px;
+}
+
+.imagem#imagem02 > p{
+    background-color:rgba(255, 255, 255, 0.685);
 }
 
 footer{
