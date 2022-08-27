@@ -6,10 +6,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TABELAS</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        table{
+            width:400px;
+            border-collapse: collapse;
+            
+        }
+        td, th{
+            border:1px solid black;
+            padding:10px;
+        }
+        thead{
+            background-color:skyblue;
+        }
+        td.num{
+            text-align:right;
+        }
+        tfoot>tr>td.num{
+            background-color:rgba(255, 192, 203, 0.437)
+        }
+        tfoot>tr>td{
+            background-color:pink
+        }
+    </style>
+        
+
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
-    <table></table>
+    <h2>Campeões com maior maestria</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Campeão</th>
+                <th>Maestria</th>
+            </tr>
+          
+               
+            
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Yasuo</td>
+                <td class="num">741.038</td>
+            </tr>
+            <tr>
+                <td>Zed</td>
+                <td class="num">281.128</td>
+            </tr>
+            <tr>
+                <td>Jinx</td>
+                <td class="num">230.538</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>TOTAL</td>
+                <td class="num">1.252.704</td>
+            </tr>
+        </tfoot>
+
+
+
+
+
+
+
+
+    </table>
     
 </body>
+
 </html>
