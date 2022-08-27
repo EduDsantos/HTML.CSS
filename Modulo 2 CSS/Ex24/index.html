@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas em HTML</title>
+    <style>
+        table{
+            width: 500px;
+            height:500px;
+            border-collapse: collapse;
+            
+        }
+        td{
+            border:2px solid black;
+            padding:5px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .marcado{
+            background-color:pink;
+        }
+        .total{
+            background-color: skyblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>primeira tabela simples com HTML</h1>
+
+
+<!--
+ ESTRUTURA DE UMA TABELA SIMPLES
+
+ TABLE = Tabela
+       TABLE ROW (TR) = Linhas
+         TABLE DATA (TD) = conteudo da linha -->
+
+        
+
+    <table>
+        <tr>
+            <td class="total">A1</td>
+            <td>B1</td>
+            <td class="total">C1</td>
+        </tr>
+
+        <tr class="marcado">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+
+        <tr>
+            <td class="total">A3</td>
+            <td>B3</td>
+            <td class="total">C3</td>
+        </tr>
+
+
+
+
+    </table>
+    
+</body>
+</html>
